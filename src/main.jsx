@@ -1,5 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import FreeStream from './FreeStream'
+import App from './App'
 
-ReactDOM.createRoot(document.getElementById('root')).render(<FreeStream />)
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+)
